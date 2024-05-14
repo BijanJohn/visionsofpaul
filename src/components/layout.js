@@ -39,15 +39,15 @@ const Layout = props => {
               <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/work`}>Work</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/news`}>News</Link>
+              <li className={`nav-home  ${data.pathname.includes('/cat-page') ? 'nav-current' : ""} `} role="menuitem">
+                <Link to={`/cat-page`}>Quentin</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/contact`}>Contact</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
+              {/* <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="site-head-center">

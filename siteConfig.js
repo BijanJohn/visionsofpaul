@@ -1,10 +1,10 @@
 const siteConfig = {
-  name: 'Clay',
-  shortName: 'Clay',
-  description: 'Clay - Personal Gatsby Theme',
+  name: 'Paul Joseph Brown',
+  shortName: 'Paul',
+  description: 'Photography website for Paul Joseph Brown',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord & Abdul Waqar',
+  author: 'Bijan Rahnamai',
   twitter: '' ,
   facebook:'',
   github:'',

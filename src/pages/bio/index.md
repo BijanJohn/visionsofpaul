@@ -1,22 +1,24 @@
 ---
 templateKey: bio-page
-thumbnail: /img/clay-image-1.jpg
-date: 2023-03-02T10:17:05.133Z
+thumbnail: /img/paul-bio.jpg
+date: 2024-05-12
 title: Bio
-description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and more.
+description: A photography blog and website showcasing the amazing work of Paul Jospeh Brown
 number: 1
 pagetype:
   - main
-featuredimage: /img/clay-image-1.jpg
+featuredimage: /img/paul-bio.jpg
 ---
-![clay-images-11](/img/clay-images-11.jpg)
 
-![clay-images-12](/img/clay-images-12.jpg)
+Paul Joseph Brown had just finished his degree in economics and politics at the University of Toronto and was headed for a career in law and the Foreign Service when his parents gave him a camera for his graduation. That gift reset his trajectory and launched a 30-year career in journalism.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.
+Paul has worked on assignment in 17 countries, on five continents, covering wars, revolutions, famine and genocide, and won some of the highest national and international awards for photojournalism.   He has documented poverty and global health challenges throughout Central America, Asia, and Africa, and maternal health research and development programs in India and Bangladesh.
 
+Combining a documentarian’s understanding of how to distill a complex story, a journalistic sixth sense for what the public needs to know, a social worker’s ability to connect with diverse people in difficult circumstances, and a photographer’s skill at creating powerful imagery regardless of the subject matter, Brown founded Global Health Photo to provide powerful visual narratives that move people to change the way they look at the world.
 
+![paul-1985-denmark](/img/paul-1985-denmark.jpg)
 
-<a href="https://unsplash.com/@tomcrewceramics" target="_blank">Image credits - Tom Crew</a>
+Paul also helps his partner Lisa with [The Perigee fund](https://perigeefund.org/).
 
+![paul-west-texas-1984](/img/paul-west-texas-1984.jpg)
 
