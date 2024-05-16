@@ -1,5 +1,5 @@
 const siteConfig = {
-  name: 'Paul Joseph Brown',
+  name: 'Paul Brown',
   shortName: 'Paul',
   description: 'Photography website for Paul Joseph Brown',
   url: '/', // Domain of your site without prefix!
@@ -8,8 +8,8 @@ const siteConfig = {
   twitter: '' ,
   facebook:'',
   github:'',
-  manifest_icon:`src/img/vase.png`,
-  image:`/vase.png`
+  manifest_icon:`src/img/camera-favicon.png`,
+  image:`/camera-favicon.png`
 
 }
 

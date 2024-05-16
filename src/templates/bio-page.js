@@ -13,7 +13,7 @@ const BioPage = (props) => {
     const { markdownRemark: post, site } = props.data;
 
     return (
-        <Layout location={props.location} title={site.siteMetadata.title } social={site.siteMetadata.social}>
+        <Layout location={props.location} title={site.siteMetadata.title } >
         <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
@@ -59,10 +59,6 @@ export const BioPageQuery = graphql`
     site {
         siteMetadata {
           title
-          social{
-            twitter
-            facebook
-          }
         }
       }
     markdownRemark(frontmatter: {templateKey: {eq: "bio-page"}}) {

@@ -2,7 +2,7 @@
 templateKey: blog-post
 thumbnail: /img/paul-cat-1.jpg
 date: 2024-05-14
-title: Quentin modeling at his home in Seattle
+title: Quentin modeling
 description: "Beautiful pictures of Quentin the cat"
 ---
 

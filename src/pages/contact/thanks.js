@@ -8,10 +8,9 @@ import SEO from "../../components/seo"
 const Thanks = (props) => {
     const { data } = props
     const siteTitle = data.site.siteMetadata.title
-    const social = data.site.siteMetadata.social
 
     return (
-        <Layout location={props.location} title={siteTitle} social={social}>
+        <Layout location={props.location} title={siteTitle}>
             <SEO title="Thank You | Form submitted successfully" />
 
 
@@ -36,10 +35,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        social{
-          twitter
-          facebook
-        }
       }
     }
   }

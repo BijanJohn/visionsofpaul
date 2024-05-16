@@ -10,11 +10,6 @@ module.exports = {
     description: siteConfig.description,
     image: siteConfig.image,
     siteUrl: "https://clay-gatsby.netlify.app/",
-    social: {
-      twitter: siteConfig.twitter,
-      facebook: siteConfig.facebook,
-      github: siteConfig.github,
-    },
   },
   plugins: [
 

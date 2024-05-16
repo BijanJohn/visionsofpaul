@@ -8,12 +8,11 @@ import PostCard from "../components/postCard"
 // eslint-disable-next-line
 const IndexPage = ({ data }) => {
     const siteTitle = data.site.siteMetadata.title
-    const social = data.site.siteMetadata.social
     const posts = data.allMarkdownRemark.edges
     let postCounter = 0
 
     return (
-        <Layout title={siteTitle} social={social}>
+        <Layout title={siteTitle}>
             <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
                 title={data.markdownRemark.frontmatter.title}
                 description={data.markdownRemark.frontmatter.description ||  ''}
@@ -42,10 +41,6 @@ export const IndexPageQuery = graphql`
     site {
         siteMetadata {
           title
-          social{
-            twitter
-            facebook
-          }    
         }
       }
       markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {

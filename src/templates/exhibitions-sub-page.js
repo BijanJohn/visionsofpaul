@@ -19,7 +19,7 @@ const BlogPostTemplate = (props) => {
   const siteTitle = props.data.site.siteMetadata.title
   const social = props.data.site.siteMetadata.social
   return (
-    <Layout location={props.location} title={siteTitle} social={social}>
+    <Layout location={props.location} title={siteTitle}>
       <Seo 
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -82,10 +82,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title 
-        social{
-          twitter
-          facebook
-        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
